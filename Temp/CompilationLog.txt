@@ -1,0 +1,2 @@
+# Starting compiling Assembly-CSharp.dll
+/Users/tenlac/iCloud Drive (archivo)/Desktop/Unity/UnityVersions/2020.2.1f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-fe08fed1076e04d67abad83ac10b3330

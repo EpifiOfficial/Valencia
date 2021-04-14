@@ -1,0 +1,10 @@
+[api-updater (non-obsolete-error-filter)] 4/8/2021 8:56:26 p. m. : Starting /Users/tenlac/iCloud Drive (archivo)/Desktop/Unity/UnityVersions/2020.2.1f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 243.054ms
+moved types parse time: 100ms
+candidates parse time : 2ms
+C# parse time         : 453ms
+candidates check time : 59ms
+console write time    : 2ms
+
