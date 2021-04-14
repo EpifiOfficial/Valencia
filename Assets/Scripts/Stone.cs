@@ -6,7 +6,6 @@ public class Stone : MonoBehaviour
 {
     private const float yDie = -30.0f;
     public GameObject explosion;
-    public GameObject null;
 
     // Start is called before the first frame update
     void Start()
