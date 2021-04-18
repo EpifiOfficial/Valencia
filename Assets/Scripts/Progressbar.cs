@@ -10,6 +10,8 @@ public class Progressbar : MonoBehaviour
     public int current;
     float time ;
     public Image mask;
+    public GameObject finishPanel;
+    public GameObject mainLoop;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,27 +25,29 @@ public class Progressbar : MonoBehaviour
          time = time + 1*Time.deltaTime;
          current=(int)time;
          GetCurrentFill(); 
-    }else
-    {
-
-        PauseGame();
-
-    }
+    }else{
+        GameEnd();
+ }
      
     }
     void GetCurrentFill(){
+
+
         float fillAmount = (float)current/(float)maximum;
         mask.fillAmount = fillAmount;
 
+
     }
 
 
-    void PauseGame(){
-        Time.timeScale=0;
-        GameManagerTasks.GameEnded();
-    }
-    void UnPauseGame(){
-        Time.timeScale=1;
+    
+    void GameEnd(){
+
+
+        mainLoop.active = false;
+        finishPanel.active = true;
+        gameObject.active=false;
+
     }
 
 }

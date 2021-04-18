@@ -7,6 +7,7 @@ using System;
 public class UiStone : MonoBehaviour
 {
     public TextMeshProUGUI destroyedStones;
+    public TextMeshProUGUI totalScore;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,5 +18,6 @@ public class UiStone : MonoBehaviour
     void Update()
     {
         destroyedStones.text = ""+GameManager.currentNumberStonesDestroyed;
+        totalScore.text = "Your score is "+GameManager.currentNumberStonesDestroyed;
     }
 }

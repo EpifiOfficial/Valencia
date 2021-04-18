@@ -8,3 +8,23 @@ C# parse time         : 453ms
 candidates check time : 59ms
 console write time    : 2ms
 
+[api-updater (non-obsolete-error-filter)] 4/14/2021 8:14:49 p. m. : Starting /Users/tenlac/iCloud Drive (archivo)/Desktop/Unity/UnityVersions/2020.2.1f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 257.202ms
+moved types parse time: 93ms
+candidates parse time : 1ms
+C# parse time         : 461ms
+candidates check time : 55ms
+console write time    : 2ms
+
+[api-updater (non-obsolete-error-filter)] 4/14/2021 8:31:02 p. m. : Starting /Users/tenlac/iCloud Drive (archivo)/Desktop/Unity/UnityVersions/2020.2.1f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 253.617ms
+moved types parse time: 90ms
+candidates parse time : 2ms
+C# parse time         : 469ms
+candidates check time : 73ms
+console write time    : 2ms
+

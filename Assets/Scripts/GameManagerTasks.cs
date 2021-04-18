@@ -7,10 +7,17 @@ public class GameManagerTasks : MonoBehaviour
     public GameObject pauseBtn;
     public GameObject repeatBtn;
     public GameObject disableMusic;
+    public GameObject homePanel;
+    public GameObject finishPanel;
+    public GameObject mainLoop;
+    public GameObject progressBar;
     // Start is called before the first frame update
     void Start()
     {
-        
+
+        mainLoop.active = true;
+        progressBar.active = false;
+
     }
 
     // Update is called once per frame
@@ -18,12 +25,19 @@ public class GameManagerTasks : MonoBehaviour
     {
         
     }
-    public static void GamePaused(){
-
+    public  void Play(){
+        homePanel.active = false;
+        mainLoop.active = true;
+        progressBar.active= true;
+        
 
     }
-    public static void GameEnded(){
-        
+    public void PlayAgain(){
+
+        GameManager.currentNumberStonesDestroyed= 0;
+        finishPanel.active = false;
+        mainLoop.active = true;
+        progressBar.active = true;
 
     }
 }
